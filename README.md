@@ -1,4 +1,4 @@
-# Cross-site-Request-Forgery-protection---asynchronized
+# Cross Site Request Forgery Protection - Asynchronized
 
 <p> This example shows how to implement a Client side to face XSS attacks. (Using CSRF token method - Asynchronized way)   </p>
 
