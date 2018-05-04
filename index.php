@@ -14,8 +14,8 @@
     $token = hash_hmac('sha256',$sessionID,$_SESSION['key']);
     
 
-    setcookie("session_id_ass2",$sessionID,time()+3600,"localhost/ass2","localhost",false,true); //cookie terminates after 1 hour - HTTP only flag
-    setcookie("csrf_token",$token,time()+3600,"localhost/ass2","localhost",false,true); //csrf token cookie
+    setcookie("session_id_ass2",$sessionID,time()+3600,"/","localhost",false,true); //cookie terminates after 1 hour - HTTP only flag
+    setcookie("csrf_token",$token,time()+3600,"/","localhost",false,true); //csrf token cookie
 
 
 ?>
